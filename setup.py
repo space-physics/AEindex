@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 from setuptools import setup
 
-req = ['nose','numpy','pandas','matplotlib','seaborn']
+req = ['nose','numpy','pandas','matplotlib','seaborn','python-dateutil','pytz',
+       'sciencedates']
 
 #%% install
 setup(name='AEindex_plot',
-      packages=['AEindex_plot'],
+      packages=['aeindex'],
       author='Michael Hirsch, Ph.D.',
-      url='https://github.com/scienceopen/weaksig-plot',
+      url='https://github.com/scienceopen/AE-index-plot',
       classifiers=[
       'Intended Audience :: Science/Research',
       'Development Status :: 3 - Alpha',
