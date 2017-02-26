@@ -18,7 +18,8 @@ Examples
 
 Data
 ====
-Obtained from the `AE-index data web interface <http://wdc.kugi.kyoto-u.ac.jp/aeasy/index.html>`_ as ASCII data tables.
+Obtained from the `AE-index data web interface <http://wdc.kugi.kyoto-u.ac.jp/aeasy/index.html>`_ as `ASCII data tables <http://wdc.kugi.kyoto-u.ac.jp/aeasy/format/aeformat.html>`_.
+ 
 
 References
 ==========
