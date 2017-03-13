@@ -8,7 +8,7 @@ req = ['nose','numpy','pandas','matplotlib','seaborn','python-dateutil','pytz',
 setup(name='AEindex_plot',
       packages=['aeindex'],
       author='Michael Hirsch, Ph.D.',
-      url='https://github.com/scienceopen/AE-index-plot',
+      url='https://github.com/scivision/AE-index-plot',
       classifiers=[
       'Intended Audience :: Science/Research',
       'Development Status :: 3 - Alpha',
