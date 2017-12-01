@@ -1,20 +1,12 @@
 #!/usr/bin/env python
-
-req = ['nose','numpy','pandas','matplotlib','seaborn','python-dateutil','pytz']
-pipreq=['sciencedates']
+install_requires = ['numpy','pandas','python-dateutil','pytz',
+    'sciencedates']
+tests_require=['nose','coveralls']
 # %%
-import pip
-try:
-    import conda.cli
-    conda.cli.main('install',*req)
-except Exception as e:
-    pip.main(['install'] + req)
-pip.main(['install'] + pipreq)
-# %%
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(name='AEindex_plot',
-      packages=['aeindex'],
+      packages=find_packages(),
       author='Michael Hirsch, Ph.D.',
       url='https://github.com/scivision/AE-index-plot',
       classifiers=[
@@ -24,5 +16,9 @@ setup(name='AEindex_plot',
       'Topic :: Scientific/Engineering :: Atmospheric Science',
       'Programming Language :: Python :: 3',
       ],
-      install_requires=req+pipreq,
+      install_requires=install_requires,
+      extras_require={'plot':['matplotlib','seaborn',],
+                      'tests':tests_require},
+      python_requires='>=3.5',
+      tests_require=tests_require,
 	  )
