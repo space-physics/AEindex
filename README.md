@@ -1,5 +1,6 @@
-# AE index plot
+[![Build Status](https://travis-ci.com/scivision/AEindex.svg?branch=master)](https://travis-ci.com/scivision/AEindex)
 
+# AE index plot
 
 Auroral Electrojet AE-index read and plot.
 
