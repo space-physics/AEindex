@@ -1,3 +1,6 @@
+.mypy_cache/
+.pytest_cache/
+
 data/
 # Byte-compiled / optimized / DLL files
 __pycache__/
