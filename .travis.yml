@@ -5,14 +5,8 @@ git:
   depth: 25
   quiet: true
 
-python:
-- 3.6
-
-os:
-- linux
-
 install:
-- pip install -e .[tests,cov]
+- pip install -e .[tests,lint]
 
 script:
 - flake8

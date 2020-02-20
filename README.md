@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/space-physics/AEindex.svg?branch=master)](https://travis-ci.com/space-physics/AEindex)
-
 # AE index plot
+
+[![Build Status](https://travis-ci.com/space-physics/AEindex.svg?branch=master)](https://travis-ci.com/space-physics/AEindex)
 
 Auroral Electrojet AE-index read and plot.
 
